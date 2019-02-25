@@ -8,7 +8,6 @@ public class IndexController {
 	
 	@RequestMapping("/hello")
 	public String hello() {
-		System.out.println("hello111");
 		return "hello";
 	}
 }
